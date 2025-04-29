@@ -96,11 +96,11 @@ export function FormPlacement({ form, updateForm, setSubmit }) {
 
   return (
     <form
-      className=" absolute left-[45%] top-[30%] max-w-[400px]"
+      className=" absolute sm:left-[45%] top-[30%] w-[80%] max-w-[400px]"
       onSubmit={submitForm}
     >
       <div className="space-y-2">
-        <label className="text-sm uppercase tracking-wider text-gray-700 font-medium">
+        <label className="text-[12px] sm:text-sm uppercase tracking-wider text-gray-700 font-medium">
           Cardholder Name
         </label>
         <input
@@ -118,7 +118,7 @@ export function FormPlacement({ form, updateForm, setSubmit }) {
       </div>
 
       <div className="space-y-2 mt-6">
-        <label className="text-sm uppercase tracking-wider text-gray-700 font-medium">
+        <label className="text-[12px] sm:text-sm uppercase tracking-wider text-gray-700 font-medium">
           Card Number
         </label>
         <input
@@ -140,7 +140,7 @@ export function FormPlacement({ form, updateForm, setSubmit }) {
 
       <div className=" grid grid-cols-2 font-semibold mt-4 gap-4">
         <div className="space-y-2">
-          <label className="text-sm uppercase tracking-wider text-gray-700 ">
+          <label className="text-[12px] sm:text-sm uppercase tracking-wider text-gray-700 ">
             Exp. date (MM/YY)
           </label>
           <div className="grid grid-cols-2 gap-2">
@@ -181,7 +181,7 @@ export function FormPlacement({ form, updateForm, setSubmit }) {
           </div>
         </div>
         <div className="space-y-2">
-          <label className="text-sm uppercase tracking-wider text-gray-700 ">
+          <label className="text-[12px] sm:text-sm uppercase tracking-wider text-gray-700 ">
             Cvv
           </label>
           <input
