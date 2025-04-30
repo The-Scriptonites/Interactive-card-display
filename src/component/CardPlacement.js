@@ -2,7 +2,7 @@ export function CardPlacement({ form }) {
   return (
     <div className="">
       <div className="absolute top-[70%] left-[10%] md:top-[15%] md:left-[25%] z-20">
-        <div className=" w-[210px] relative md:w-[447px] md:h-[256px]">
+        <div className="w-[80%] relative md:w-[447px] md:h-[256px]">
           <img
             alt="card front"
             className="block w-full h-full object-cover"
@@ -33,11 +33,11 @@ export function CardPlacement({ form }) {
         </div>
       </div>
 
-      <div className="absolute top-[40%] left-[28%] md:top-[55%] md:left-[50%]">
-        <div className="w-[210px]  md:w-[447px] md:h-[245px] relative">
+      <div className="absolute top-[30%] left-[35%] md:top-[55%] md:left-[50%]">
+        <div className="w-[90%] md:w-[447px] md:h-[245px] relative">
           <img
             alt="card back"
-            className="block w-full object-cover "
+            className="block w-full h-full object-cover "
             src="/images/bg-card-back.png"
           />
           <div className="absolute right-[20px] sm:right-12 top-[45%] text-white tracking-widest">

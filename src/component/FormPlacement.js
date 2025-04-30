@@ -96,7 +96,7 @@ export function FormPlacement({ form, updateForm, setSubmit }) {
 
   return (
     <form
-      className=" absolute sm:left-[45%] top-[30%] w-[80%] max-w-[400px] mb-5"
+      className=" absolute sm:left-[45%] top-[10%] md:top-[30%] w-[80%] max-w-[400px]"
       onSubmit={submitForm}
     >
       <div className="space-y-2">
